@@ -204,12 +204,12 @@ y_pred = lr_model.predict(X_test)
 
 | Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
 |-------|----------|-----|-----------|--------|----------|-----|
-| Logistic Regression | - | - | - | - | - | - |
-| Decision Tree | - | - | - | - | - | - |
-| K-Nearest Neighbors | - | - | - | - | - | - |
-| Naive Bayes | - | - | - | - | - | - |
+| Logistic Regression | 0.909 | 0.686 | 0.897 | 0.909 | 0.900 | 0.451 |
+| Decision Tree | 0.901 | 0.716 | 0.897 | 0.901 | 0.899 | 0.450 |
+| K-Nearest Neighbors | 0.892 | 0.671 | 0.883 | 0.892 | 0.887 | 0.444 |
+| Naive Bayes | 0.847 | 0.733 | 0.885 | 0.847 | 0.862 | 0.433 |
 | Random Forest | - | - | - | - | - | - |
-| XGBoost | - | - | - | - | - | - |
+| XGBoost | 0.904 | 0.741 | 0.903 | 0.904 | 0.903 | 0.452 |
 
 *[Fill in your actual results after running the models]*
 
