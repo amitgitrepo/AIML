@@ -208,17 +208,17 @@ y_pred = lr_model.predict(X_test)
 | Decision Tree | 0.901 | 0.716 | 0.897 | 0.901 | 0.899 | 0.450 |
 | K-Nearest Neighbors | 0.892 | 0.671 | 0.883 | 0.892 | 0.887 | 0.444 |
 | Naive Bayes | 0.847 | 0.733 | 0.885 | 0.847 | 0.862 | 0.433 |
-| Random Forest | - | - | - | - | - | - |
+| Random Forest | 0.907 | 0.702 | 0.898 | 0.907 | 0.901 | 0.451 |
 | XGBoost | 0.904 | 0.741 | 0.903 | 0.904 | 0.903 | 0.452 |
 
 *[Fill in your actual results after running the models]*
 
 ### Key Findings
 
-- **Best Overall Model:** [Model name based on your results]
-- **Best for Precision:** [Model name]
-- **Best for Recall:** [Model name]
-- **Best for Imbalanced Data (MCC):** [Model name]
+- **Best Overall Model:** XGBoost
+- **Best for Precision:** XGBoost
+- **Best for Recall:** Logistic Regression
+- **Best for Imbalanced Data (MCC):** XGBoost
 
 ## Methodology
 
